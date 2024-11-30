@@ -1,16 +1,15 @@
 # Projet
 
-Découverte et mise en place de fichers de configuration de mes extension utiles pour développer des
-projets.
+Découverte et mise en place de ficher de configurations utiles pour développer de futurs projets.
 
 ## Description du projet
 
 Création et configurations d'un dossier de base de configurations avec des techno que je suis
-susceptible d'utiliser dans mes différents projet. Le but n'étant pas de faire une simple
-copier/coller dans mes projet. Le but premier est d'avoir un dossier de base, qui sera utilisé mais
-surtut modifié en fonction des technos utilisées durant les projet. Les éléments se sont pas
-définitifs, ils évoluent en permanence et les parties non utiles sont à retirer afin de ne pas
-polluer le projet d'élémentsqui ne sont pas nécessaire.
+susceptible d'utiliser dans mes différents projets. Le but n'étant pas de faire un simple copier /
+coller dans mes projets. Le but premier est d'avoir un dossier de base, qui sera utilisé, mais
+surtout modifié en fonction des technos utilisées durant les projets. Les éléments ne sont pas
+définitifs, ils évoluent en permanence et les parties non-utiles sont à retirer afin de ne pas
+polluer le projet d'éléments qui ne sont pas nécessaires.
 
 ## Table des matières
 
