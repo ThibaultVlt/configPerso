@@ -1,8 +1,92 @@
 # Projet
 
+Découverte et mise en place de fichers de configuration de mes extension utiles pour développer des
+projets.
+
 ## Description du projet
 
+Création et configurations d'un dossier de base de configurations avec des techno que je suis
+susceptible d'utiliser dans mes différents projet. Le but n'étant pas de faire une simple
+copier/coller dans mes projet. Le but premier est d'avoir un dossier de base, qui sera utilisé mais
+surtut modifié en fonction des technos utilisées durant les projet. Les éléments se sont pas
+définitifs, ils évoluent en permanence et les parties non utiles sont à retirer afin de ne pas
+polluer le projet d'élémentsqui ne sont pas nécessaire.
+
 ## Table des matières
+
+- [Projet](#projet)
+  - [Description du projet](#description-du-projet)
+  - [Table des matières](#table-des-matières)
+  - [Outils](#outils)
+    - [VS Code](#vs-code)
+    - [Les navigateurs](#les-navigateurs)
+      - [**_Extensions pour les navigateurs_**](#extensions-pour-les-navigateurs)
+        - [**_Axe DevTools_**](#axe-devtools)
+        - [**_Lighthouse_**](#lighthouse)
+        - [**_SeoQuake_**](#seoquake)
+        - [**_Wave_**](#wave)
+    - [NodeJS](#nodejs)
+      - [**_Extensions VS Code pour NodeJS_**](#extensions-vs-code-pour-nodejs)
+    - [Git](#git)
+      - [**_Extensions VS Code pour Git_**](#extensions-vs-code-pour-git)
+  - [Les extensions non liées à un langage](#les-extensions-non-liées-à-un-langage)
+    - [Pour le formatage](#pour-le-formatage)
+      - [**_EditorConfig_**](#editorconfig)
+      - [**_Prettier_**](#prettier)
+    - [Pour la qualité du code](#pour-la-qualité-du-code)
+      - [**_Webhint_**](#webhint)
+        - [**_Extensions pour les navigateurs pour Webhint_**](#extensions-pour-les-navigateurs-pour-webhint)
+      - [**_LightHouse_**](#lighthouse-1)
+        - [**_Extensions pour les navigateurs pour LightHouse_**](#extensions-pour-les-navigateurs-pour-lighthouse)
+      - [**_SonarLint_**](#sonarlint)
+      - [**_Axe_**](#axe)
+        - [**_Extensions pour les navigateurs pour Axe_**](#extensions-pour-les-navigateurs-pour-axe)
+    - [Pour le développement](#pour-le-développement)
+      - [**_Live server_**](#live-server)
+      - [Todo Tree](#todo-tree)
+      - [Code Spell Checker](#code-spell-checker)
+      - [Gremlins tracker for Visual Studio Code](#gremlins-tracker-for-visual-studio-code)
+      - [:emojisense](#emojisense)
+      - [Partial Diff](#partial-diff)
+      - [Browserslist](#browserslist)
+    - [Autres](#autres)
+  - [Les langages](#les-langages)
+    - [Markdown](#markdown)
+      - [**_Extensions VS Code pour Markdown_**](#extensions-vs-code-pour-markdown)
+      - [**_Formatage pour Markdown_**](#formatage-pour-markdown)
+      - [**_Linter pour Markdown_**](#linter-pour-markdown)
+    - [JSON](#json)
+      - [**_Extensions VS Code pour JSON_**](#extensions-vs-code-pour-json)
+      - [**_Formatage pour JSON_**](#formatage-pour-json)
+      - [**_Linter pour JSON_**](#linter-pour-json)
+    - [HTML](#html)
+      - [**_Extensions VS Code pour HTML_**](#extensions-vs-code-pour-html)
+      - [**_Extensions pour les navigateurs pour HTML_**](#extensions-pour-les-navigateurs-pour-html)
+      - [**_Formatage pour HTML_**](#formatage-pour-html)
+      - [**_Linter pour HTML_**](#linter-pour-html)
+    - [CSS](#css)
+      - [**_Extensions VS Code pour CSS_**](#extensions-vs-code-pour-css)
+      - [**_Formatage pour CSS_**](#formatage-pour-css)
+      - [**_Linter pour CSS_**](#linter-pour-css)
+      - [**_Documentation pour CSS_**](#documentation-pour-css)
+    - [SASS](#sass)
+      - [**_Extensions VS Code pour SASS_**](#extensions-vs-code-pour-sass)
+      - [**_Formatage pour SASS_**](#formatage-pour-sass)
+      - [**_Linter pour SASS_**](#linter-pour-sass)
+      - [**_Automatisation pour SASS_**](#automatisation-pour-sass)
+      - [**_Documentation pour SASS_**](#documentation-pour-sass)
+    - [JS](#js)
+      - [**_Extensions VS Code pour JS_**](#extensions-vs-code-pour-js)
+      - [**_Formatage pour JS_**](#formatage-pour-js)
+      - [**_Linter pour JS_**](#linter-pour-js)
+      - [**_Documentation pour JS_**](#documentation-pour-js)
+  - [Les frameworks CSS](#les-frameworks-css)
+    - [Bootstrap](#bootstrap)
+      - [**_Extensions VS Code pour Bootstrap_**](#extensions-vs-code-pour-bootstrap)
+  - [Les frameworks JS](#les-frameworks-js)
+    - [React](#react)
+      - [**_Extensions VS Code pour React_**](#extensions-vs-code-pour-react)
+  - [TODO](#todo)
 
 ## Outils
 
@@ -63,6 +147,8 @@ WAVE est un outil d'évaluation de l'accessibilité Web.
 - [Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/wave-evaluation-tool/khapceneeednkiopkkbgkibbdoajpkoj?hl=fr)
 
+Pour un retour à la [Table des matières](#table-des-matières)
+
 ### NodeJS
 
 Installez-le depuis le [site officiel](https://nodejs.org) en choisissant de préférence la version
@@ -91,6 +177,8 @@ Dans le fichier `.vscode/settings.json`, ajoutez :
   "redhat.telemetry.enabled": false
 }
 ```
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ### Git
 
@@ -124,6 +212,8 @@ Dans le terminal, tapez `git init` pour initialiser le projet.
 - Git Graph _(publiée par : mhutchie)_
 - gitignore _(publiée par : CodeZombie)_
 - GitHub Repositories _(publiée par : GitHub)_
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ## Les extensions non liées à un langage
 
@@ -159,6 +249,8 @@ end_of_line = lf
 ```
 
 L'ensemble des options est disponible sur le [site d'EditorConfig](https://spec.editorconfig.org/).
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 #### **_Prettier_**
 
@@ -215,6 +307,8 @@ Ajoutez dans le fichier `package.json` :
 
 Vous pourrez lancer depuis le terminal `npm run format` pour vérifier le formatage des fichiers du
 projet ou `npm run format-css` pour limiter aux CSS par exemple.
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ### Pour la qualité du code
 
@@ -286,6 +380,8 @@ projet.
 - [Chrome](https://chrome.google.com/webstore/detail/webhint/gccemnpihkbgkdmoogenkbkckppadcag?hl=fr)
   _(Non disponible)_
 
+  Pour un retour à la [Table des matières](#table-des-matières)
+
 #### **_LightHouse_**
 
 Installez le package `lighthouse` en tapant dans le terminal `npm i -D lighthouse` ou
@@ -335,6 +431,8 @@ Installez l'extension pour VS Code `axe Accessibility Linter` _(publiée par : D
 - [Firefox](https://addons.mozilla.org/fr/firefox/addon/axe-devtools/)
 - [Chrome](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
 - [Edge](https://microsoftedge.microsoft.com/addons/detail/axe-web-accessibility-t/kcenlimkmjjkdfcaleembgmldmnnlfkn)
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ### Pour le développement
 
@@ -395,6 +493,8 @@ de configuration serait :
 
 L'ensemble des options est disponible sur le [site de cspell](https://cspell.org/configuration/).
 
+Pour un retour à la [Table des matières](#table-des-matières)
+
 #### Gremlins tracker for Visual Studio Code
 
 Installez l'extension pour VS Code `Gremlins tracker for Visual Studio Code` _(publiée par : Nicolas
@@ -436,6 +536,8 @@ fichier `.vscode/settings.json`, ajoutez :
   "partialDiff.enableTelemetry": false
 }
 ```
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 #### Browserslist
 
@@ -491,6 +593,8 @@ Dans le fichier `.vscode/settings.json`, ajoutez :
   "workbench.editor.wrapTabs": true
 }
 ```
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ## Les langages
 
@@ -552,6 +656,8 @@ Ajoutez dans le fichier `package.json` :
 Vous pourrez lancer depuis le terminal `npm run lint-md` pour vérifier le code des fichiers Markdown
 du projet.
 
+Pour un retour à la [Table des matières](#table-des-matières)
+
 ### JSON
 
 #### **_Extensions VS Code pour JSON_**
@@ -603,6 +709,8 @@ Ajoutez dans le fichier `package.json` :
 
 Vous pourrez lancer depuis le terminal `npm run lint-json` pour vérifier le code des fichiers JSON
 du projet.
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ### HTML
 
@@ -710,6 +818,8 @@ Ajoutez dans le fichier `package.json` :
 
 Vous pourrez lancer depuis le terminal `npm run validate-html` pour vérifier la conformité du code
 des fichiers HTML du projet.
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ### CSS
 
@@ -828,6 +938,8 @@ Ajoutez dans le fichier `package.json` :
 Vous pourrez lancer depuis le terminal `npm run document-css` pour documenter les fichiers CSS du
 projet.
 
+Pour un retour à la [Table des matières](#table-des-matières)
+
 ### SASS
 
 #### **_Extensions VS Code pour SASS_**
@@ -932,6 +1044,8 @@ Ajoutez dans le fichier `package.json` :
 
 Vous pourrez lancer depuis le terminal `npm run document-scss` pour documenter les fichiers SASS du
 projet.
+
+Pour un retour à la [Table des matières](#table-des-matières)
 
 ### JS
 
@@ -1081,6 +1195,8 @@ Ajoutez dans le fichier `package.json` :
 Vous pourrez lancer depuis le terminal `npm run document-js` pour documenter les fichiers JS du
 projet.
 
+Pour un retour à la [Table des matières](#table-des-matières)
+
 ## Les frameworks CSS
 
 ### Bootstrap
@@ -1131,7 +1247,12 @@ générer le code transpilé dans le répertoire "build".
 
 L'ensemble des options est disponible sur le [site de babel](https://babeljs.io/)
 
----
+Pour un retour à la [Table des matières](#table-des-matières)
+
+## TODO
+
+Cette partie est utile afin de garder en tête des éléments manquants et des potentielles
+améliorations à ajouter.
 
 TODO Faire les settings via les paramètres VS code (ctrl + ,)
 
@@ -1146,3 +1267,7 @@ TODO Babel JavaScript _(publiée par : Michael McDermott)_
 TODO voir gulp et grunt
 
 TODO Autoprefixer
+
+---
+
+Pour un retour à la [Table des matières](#table-des-matières)
