@@ -51,6 +51,13 @@
         "webhint.vscode-webhint",
         "joshua-needham.bootstrap-icons-with-style",
         "eamodio.gitlens",
-        "mgmcdermott.vscode-language-babel"
+        "mgmcdermott.vscode-language-babel",
+        "ms-azuretools.vscode-docker",
+        "bmewburn.vscode-intelephense-client",
+        "neilbrayfield.php-docblocker",
+        "mehedidracula.php-namespace-resolver",
+        "junstyle.php-cs-fixer",
+        "cweijan.dbclient-jdbc",
+        "cweijan.vscode-mysql-client2"
     ]
 }

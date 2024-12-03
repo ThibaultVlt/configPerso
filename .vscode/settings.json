@@ -83,5 +83,10 @@
     "workbench.editor.wrapTabs": true,
     "liveServer.settings.port": 5500,
     "MS-CST-E.vscode-devskim.rules.enableBestPracticeSeverityRules": true,
-    "MS-CST-E.vscode-devskim.rules.enableManualReviewSeverityRules": true
+    "MS-CST-E.vscode-devskim.rules.enableManualReviewSeverityRules": true,
+    "cSpell.words": [
+        "dbdata",
+        "mysqli",
+        "phpmyadmin"
+    ]
 }
