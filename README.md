@@ -79,6 +79,8 @@ polluer le projet d'éléments qui ne sont pas nécessaires.
       - [**_Formatage pour JS_**](#formatage-pour-js)
       - [**_Linter pour JS_**](#linter-pour-js)
       - [**_Documentation pour JS_**](#documentation-pour-js)
+    - [PHP](#php)
+      - [**_Extensions VS Code pour PHP_**](#extensions-vs-code-pour-php)
   - [Les frameworks CSS](#les-frameworks-css)
     - [Bootstrap](#bootstrap)
       - [**_Extensions VS Code pour Bootstrap_**](#extensions-vs-code-pour-bootstrap)
@@ -1207,6 +1209,27 @@ Vous pourrez lancer depuis le terminal `npm run document-js` pour documenter les
 projet.
 
 Pour un retour à la [Table des matières](#table-des-matières)
+
+### PHP
+
+FIXME Partie PHP à compléter
+
+#### **_Extensions VS Code pour PHP_**
+
+- PHP IntelliSense _(publiée par : Damjan Cvetko)_
+- PHP Intelephense _(publiée par : Ben Mewburn)_
+- PHP Extension Pack _(publiée par : Xdebug)_
+- PHP DocBlocker  _(publiée par : Neil Brayfield)_
+- PHP Namespace Resolver  _(publiée par : Mehedi Hassan)_
+- php cs fixer  _(publiée par : junstyle)_
+
+Dans le fichier `.vscode/settings.json`, ajoutez :
+
+```json
+{
+
+}
+```
 
 ## Les frameworks CSS
 
