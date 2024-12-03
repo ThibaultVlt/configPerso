@@ -45,7 +45,7 @@ polluer le projet d'éléments qui ne sont pas nécessaires.
       - [Todo Tree](#todo-tree)
       - [Code Spell Checker](#code-spell-checker)
       - [Gremlins tracker for Visual Studio Code](#gremlins-tracker-for-visual-studio-code)
-      - [:emojisense](#emojisense)
+      - [:emojisense:](#emojisense)
       - [Partial Diff](#partial-diff)
       - [Browserslist](#browserslist)
     - [Autres](#autres)
@@ -505,7 +505,7 @@ Hoizey)_ puis dans le fichier `.vscode/settings.json`, ajoutez :
 }
 ```
 
-#### :emojisense
+#### :emojisense:
 
 Installez l'extension pour VS Code `:emojisense:` _(publiée par ; Matt Bierner)_ puis dans le
 fichier `.vscode/settings.json`, ajoutez :
@@ -1211,8 +1211,8 @@ Pour un retour à la [Table des matières](#table-des-matières)
 
 #### **_Extensions VS Code pour React_**
 
-FIXME Chercher plus de renseignements pour BABEL FIXME A voir
-[lien vers site pour configurer babel](https://medium.com/@ns-tech-learn/how-to-install-babel-and-config-in-react-js-project-39c953527560)
+FIXME Chercher plus de renseignements pour BABEL
+FIXME A voir [lien vers site pour configurer babel](https://medium.com/@ns-tech-learn/how-to-install-babel-and-config-in-react-js-project-39c953527560)
 
 - Babel JavaScript _(publiée par : Michael McDermott)_
 
@@ -1228,8 +1228,8 @@ contenu suivant :
 Ce fichier de configuration indique à Babel d'utiliser les préréglages spécifiés
 (`@babel/preset-env` et `@babel/preset-react`) lors de la transpilation de votre code.
 
-Ouvrez votre fichier `package.json` et ajoutez un champ `”babel”` pour spécifier le fichier de
-configuration Babel. Ajoutez ou mettez à jour la section `”scripts”` comme suit :
+Ouvrez votre fichier `package.json` et ajoutez un champ `babel` pour spécifier le fichier de
+configuration Babel. Ajoutez ou mettez à jour la section `scripts` comme suit :
 
 ```json
 "scripts" : {
@@ -1252,6 +1252,10 @@ Pour un retour à la [Table des matières](#table-des-matières)
 
 Cette partie est utile afin de garder en tête des éléments manquants et des potentielles
 améliorations à ajouter.
+
+TODO Faire les config PHP et mySQL
+
+TODO Ajouter les config et fichiers Docker (serveur apache avec php)
 
 TODO Faire les settings via les paramètres VS code (ctrl + ,)
 
