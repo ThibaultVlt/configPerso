@@ -1402,6 +1402,17 @@ TODO Ajouter les settings dans le Readme.md
 
 TODO ncu
 
+FIXME si erreur :ncu : Impossible de charger le fichier C:\Users\Thibault\AppData\Roaming\npm\ncu.ps1, car
+l’exécution de scripts est désactivée sur ce système. Pour plus d’informations, consultez
+about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170.
+Au caractère Ligne:1 : 1
++ ncu
++ ~~~
+    + CategoryInfo          : Erreur de sécurité : (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+alors faire la commande : Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force ,dans powershell
+
 TODO Config pour react
 
 TODO Babel JavaScript _(publiée par : Michael McDermott)_
